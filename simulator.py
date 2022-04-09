@@ -48,7 +48,6 @@ class Simulator:
 
     def __init__(self, args):
         self.args = args
-        print("self args ", self.args)
 
     def reset(self, swap_players=False, board_size=None):
         """
