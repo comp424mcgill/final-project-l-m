@@ -27,7 +27,7 @@ def get_args():
         default=12,
         help="In autoplay mode, the maximum board size",
     )
-    parser.add_argument("--display", action="store_true", default=False)
+    parser.add_argument("--display", action="store_true", default=False) 
     parser.add_argument("--display_delay", type=float, default=0.4)
     parser.add_argument("--display_save", action="store_true", default=False)
     parser.add_argument("--display_save_path", type=str, default="plots/")
